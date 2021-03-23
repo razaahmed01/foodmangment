@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/andriod/foodmangment/app/src/main/res/layout/activity_dashboard.xml" value="0.225" />
+        <entry key="..\:/andriod/foodmangment/app/src/main/res/layout/activity_myevent.xml" value="0.25" />
         <entry key="..\:/andriod/foodmangment/app/src/main/res/layout/activity_signup.xml" value="0.22153846153846155" />
       </map>
     </option>

@@ -8,7 +8,7 @@
     tools:context=".dashboard">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/addevent"
         android:layout_width="300dp"
         android:layout_height="120dp"
         android:text="Add New Event"
@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.239" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/viewenvent"
         android:layout_width="300dp"
         android:layout_height="120dp"
         android:text="Veiw My Event"
@@ -33,11 +33,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/addevent"
         app:layout_constraintVertical_bias="0.078" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/myinvite"
         android:layout_width="300dp"
         android:layout_height="120dp"
         android:text="My Invites"
@@ -47,7 +47,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/viewenvent"
         app:layout_constraintVertical_bias="0.17000002" />
 
     <TextView
@@ -58,7 +58,7 @@
         android:text="All Events"
         android:textColor="#F8F6F6"
         android:textSize="36sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/addevent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

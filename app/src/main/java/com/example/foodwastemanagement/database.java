@@ -58,5 +58,19 @@ public class database extends SQLiteOpenHelper {
         return false;
     }
 
+    public boolean insertenvent(String eventname,String location){
+        SQLiteDatabase db=this.getWritableDatabase();
+        ContentValues contentValues=new ContentValues();
+        contentValues.put("event_name",eventname);
+        contentValues.put("location",location);
+
+        long result=db.insert("event",null,contentValues);
+        if (result == -1){
+            return false;
+        }else {
+            return true;
+        }
+    }
+
 
 }
